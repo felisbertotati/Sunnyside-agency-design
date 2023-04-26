@@ -1,7 +1,46 @@
-.attribution {
+/* .attribution {
   font-size: 11px;
   text-align: center;
-}
-.attribution a {
+} */
+/* .attribution a {
   color: hsl(228, 45%, 44%);
+} */
+
+/*hero image style.*/
+.hero-image {
+  background-image: url(./images/desktopImg/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.logo {
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+nav {
+  padding-right: 25px;
+  padding-top: 20px;
+}
+
+.nav-button {
+  background-color: white;
+  border-radius: 50px;
+  width: 125px;
+  height: 45px;
+  border: none;
+}
+
+.nav-button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
 }
